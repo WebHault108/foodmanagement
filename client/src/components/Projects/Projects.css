@@ -1,0 +1,144 @@
+.projects-container {
+  background-color: var(--clr-dark-gray);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.our-projects {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.project-title {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-heading {
+  font-size: 2.28rem;
+  color: var(--clr-light-gray);
+  text-align: center;
+  width: 60%;
+  margin-bottom: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.project-card {
+  width: 70%;
+  height: 250px;
+  padding: 1.6rem 1rem;
+  /* border: 1px solid var(--clr-heading); */
+  border-radius: 0.625rem;
+  transition: 3s background-color ease-in;
+}
+
+/* .project-card:hover {
+      transform: scale(1.02);
+    } */
+.card-bg {
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      360deg,
+      rgba(3, 3, 3, 0.6),
+      rgba(3, 3, 3, 0.6)
+    ),
+    url(https://img.freepik.com/premium-photo/autumnal-forest-ground-view-with-blurred-trees-background_27550-70.jpg);
+  transition: 0.3s background-color ease;
+}
+
+.bg-img1 {
+  background-image: linear-gradient(
+      360deg,
+      rgba(3, 3, 3, 0.6),
+      rgba(3, 3, 3, 0.6)
+    ),
+    url(https://img.freepik.com/free-photo/person-cleaning-nature-earth-day_23-2151262720.jpg?semt=ais_hybrid);
+}
+
+.bg-img2 {
+  background-image: linear-gradient(
+      360deg,
+      rgba(3, 3, 3, 0.6),
+      rgba(3, 3, 3, 0.6)
+    ),
+    url(https://png.pngtree.com/thumb_back/fw800/background/20221104/pngtree-covid19-food-aid-package-distributed-by-volunteers-basket-infection-together-photo-image_40184406.jpg);
+}
+
+.card-title {
+  font-size: 1.28rem;
+  width: 90%;
+  color: var(--clr-heading);
+  margin-bottom: 0.425rem;
+  font-weight: 500;
+}
+
+.card-desc {
+  color: var(--clr-gray);
+  margin-bottom: 3.5rem;
+  font-size: 0.88rem;
+  font-weight: 300;
+}
+
+.card-btn {
+  width: 90px;
+  background-color: var(--clr-light-gray);
+  color: #000;
+  padding: 0.45rem 0.65rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  transition: 0.3s;
+}
+
+.card-btn:hover {
+  cursor: pointer;
+  background-color: var(--clr-heading);
+}
+
+.project-card:hover {
+  position: relative;
+  background-color: rgba(28, 28, 28, 0.795);
+  opacity: 0.7;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .project-heading {
+    font-size: 1.8rem;
+    color: var(--clr-light-gray);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .card-desc {
+    margin-bottom: 3rem;
+  }
+  .project-card {
+    width: 85%;
+    padding: 1.5rem 1.5rem;
+  }
+}

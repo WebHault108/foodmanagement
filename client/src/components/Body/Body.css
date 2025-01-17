@@ -1,0 +1,25 @@
+.card1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid;
+  padding: 14px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.num {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #232323;
+}
+
+.titlee {
+  font-size: 14px;
+  color: #545454;
+}
+
+.card-img {
+  height: 70px;
+  width: 70px;
+}

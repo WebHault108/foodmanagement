@@ -1,0 +1,144 @@
+/* footer  */
+.footer-containerr {
+  background-color: var(--clr-dark-gray);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem;
+}
+
+.footerr {
+  max-width: 1080px;
+  background-color: var(--clr-secondary);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 10px;
+}
+
+.top-part,
+.bottom-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-left {
+  width: 24%;
+}
+.top-left .logo {
+  border-right: none;
+}
+
+.top-left .text {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+/* .logo-name .link {
+  text-decoration: none;
+  color: #000;
+} */
+
+.top-right {
+  width: 50%;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  width: 40%;
+}
+
+.links-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
+}
+
+.donate-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.4rem;
+  width: 20%;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.donate-links NavLink {
+  color: var(--clr-dark-gray);
+}
+
+.bottom-left {
+  width: 35%;
+}
+
+.copyright {
+  font-size: 0.86rem;
+  font-weight: 300;
+}
+
+.social-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.325rem;
+  border: 1px solid var(--clr-dark-gray);
+  border-radius: 20px;
+  padding: 0.48rem;
+  cursor: pointer;
+
+  transition: 0.3s ease-out background-color;
+}
+
+.social:hover {
+  background-color: #000;
+  color: var(--clr-heading);
+}
+
+.s-text {
+  font-size: 0.9rem;
+  /* text-align: center; */
+}
+
+@media screen and (max-width: 768px) {
+  .links-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  .top-part,
+  .bottom-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .top-left {
+    width: 100%;
+  }
+
+  .top-right {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+  .donate-links {
+    width: 100%;
+  }
+  .bottom-left {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .social-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

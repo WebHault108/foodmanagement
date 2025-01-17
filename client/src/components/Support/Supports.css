@@ -1,0 +1,50 @@
+.support-cotainer {
+  max-width: 900px;
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 18vh;
+  background-color: var(--clr-blue-bg);
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.support-card {
+  color: var(--clr-gray);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.support-icon {
+  height: 32px;
+  width: 32px;
+}
+
+.support-card p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .support-cotainer {
+    background-color: transparent;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: auto;
+    gap: 1rem;
+  }
+  .support-card {
+    justify-content: left;
+  }
+}

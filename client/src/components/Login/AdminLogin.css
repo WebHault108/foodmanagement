@@ -1,0 +1,58 @@
+.donor-form {
+  gap: 0.5rem;
+  background-color: var(--clr-heading);
+  padding: 1.2rem 1.2rem;
+}
+
+.lg {
+  margin-top: 1.4rem;
+}
+
+.inp {
+  padding: 5px 12px;
+  border: 1px solid #d4d4d4;
+  outline: none;
+}
+
+.d-btn {
+  border: 2px solid var(--clr-secondary);
+  background-color: #fff;
+  color: var(--clr-gray);
+}
+
+.d-btn:hover {
+  /* border: none; */
+  background-color: var(--clr-secondary);
+  color: #fff;
+}
+
+.log {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../images/donor-page-bg.jpg") no-repeat center;
+  background-size: cover;
+  padding: 5rem 0rem;
+}
+
+.donor-container {
+  margin-top: 3rem;
+  position: relative;
+}
+
+.pagelink {
+  margin-left: 20px;
+  color: var(--clr-secondary);
+  font-size: 1.2rem;
+}
+
+.pagelink a {
+  color: var(--clr-secondary);
+  font-weight: 500;
+}
+
+/* .ps {
+  position: relative;
+}
+
+.form-out {
+  position: absolute;
+} */

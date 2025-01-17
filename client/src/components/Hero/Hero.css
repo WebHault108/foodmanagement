@@ -1,0 +1,74 @@
+.hero-container {
+  background: linear-gradient(
+      90deg,
+      rgba(46, 46, 46, 0.7),
+      rgba(33, 33, 33, 0.8),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(https://media.licdn.com/dms/image/D4D12AQGNj8VwO30wqg/article-cover_image-shrink_720_1280/0/1661409759062?e=2147483647&v=beta&t=P-HGcrYlvnHlbAc_UyUftfeFNUESXwlGVrOyzlg1X-c)
+      no-repeat fixed center;
+  background-size: cover;
+  padding: 0 1rem 4rem;
+}
+
+.hero {
+  max-width: 1080px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.heading {
+  margin-top: 2.1rem;
+
+  padding-top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  /* typing animation  */
+}
+
+.heading-title {
+  color: var(--clr-light-gray);
+  font-size: 5.6rem;
+  width: 80%;
+  font-weight: 400;
+}
+
+.heading-text {
+  color: var(--clr-gray);
+  font-size: 1.9rem;
+  font-weight: 300;
+  width: 45%;
+}
+
+.hero-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    margin-top: 4rem;
+  }
+  .heading-title {
+    color: var(--clr-light-gray);
+    font-size: 2.6rem;
+    width: 100%;
+    font-weight: 600;
+  }
+  .heading-text {
+    color: var(--clr-gray);
+    font-size: 1.3rem;
+    font-weight: 300;
+    width: 80%;
+  }
+}

@@ -1,0 +1,47 @@
+:root {
+  --clr-heading: #fff;
+  --clr-light-gray: #dbdbdb;
+  --clr-gray: #a7a7a7;
+  --clr-dark-gray: #2e2e2e;
+  --clr-blue-bg: #162325;
+  /* --clr-secondary: #8af558; */
+  --clr-secondary: #f3a12f;
+}
+
+.form-group input[type="Search"] {
+  margin-top: 15px;
+  border-radius: 50px;
+  border: 0.1px solid #000;
+}
+
+.boxx {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: #2e2e2e;
+}
+.linkss {
+  margin-top: 23px;
+}
+
+.round {
+  border: 0.1px solid #000;
+  border-radius: 50%;
+  padding: 7px 9px;
+  background-color: #ffffff;
+}
+
+.nav-icons {
+  margin-top: -3px;
+}
+
+.link-style {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .link-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,9 @@
+form label {
+  font-size: 16px;
+  color: rgb(69, 69, 69);
+  font-weight: 600;
+}
+
+.req {
+  color: red;
+}
